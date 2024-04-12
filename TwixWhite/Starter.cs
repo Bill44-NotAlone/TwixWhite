@@ -7,8 +7,3 @@ CityControllerClient cityControllerClient = new CityControllerClient(channel);
 CityClient cityClient = new CityClient(cityControllerClient);
 
 cityClient.getAll().ForEach(c => Console.WriteLine(c.Name));
-
-
-
-
-
